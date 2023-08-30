@@ -68,7 +68,7 @@ body{
   font-family: 'Courier New', Courier, monospace;
   display: inline-block;
   padding: 1%;
-  margin:30px 35%;
+  margin:30px 10% 0px 38%;
   font-size: 40px;
   font-weight: bolder;
   margin-bottom: 0px;
@@ -79,5 +79,25 @@ body{
   letter-spacing: 1px;
   word-spacing: 1px;
   line-height: 24px;
-  margin: 0px 15px 30px 15px;
+  margin: 0px 15px 30px 30px;
+}
+#contact-us h2{
+  font-size: 28px;
+  margin-left: 15px;
+}
+#contact-us h3{
+  font-size: 20px;
+  margin-left: 15px;
+  margin-bottom: 10px;
+}
+#contact-us p, #contact-us a{
+  display: inline-block;
+  margin: 0px 0px 10px 30px;
+  line-height: 10px;
+  text-decoration: none;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#contact-us a{
+  color: red;
+  font-weight: bold;
 }
