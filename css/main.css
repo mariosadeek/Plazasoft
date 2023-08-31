@@ -4,7 +4,7 @@ body{
   background-image:url(https://media.istockphoto.com/id/480288890/photo/it-background-hexadecimal-code-a01.jpg?s=1024x1024&w=is&k=20&c=R2-akiMC6dX0rs9isSxPCZDdPj98Pc2r-R2IdH-oY7E=);
   background-repeat: no-repeat;
   background-position: middle center;
-  background-size: 150%;
+  background-size: 200%;
 }
 #wrapper{
   width: 1000px;
@@ -14,6 +14,7 @@ body{
 #header img{
   width: 100%;
   height: 300px;
+  margin-bottom: 0px;
 }
 
 
@@ -68,10 +69,9 @@ body{
   font-family: 'Courier New', Courier, monospace;
   display: inline-block;
   padding: 1%;
-  margin:30px 10% 0px 38%;
+  margin:0px 10% 0px 38%;
   font-size: 40px;
   font-weight: bolder;
-  margin-bottom: 0px;
 }
 #about-us p{
   font-size: 20px;
@@ -98,6 +98,43 @@ body{
   font-family: Georgia, 'Times New Roman', Times, serif;
 }
 #contact-us a{
-  color: red;
+  color: #0f4b89;
   font-weight: bold;
+}
+#contact-us a:hover{
+  color: #d5a052;
+}
+#downloads a{
+  text-decoration: none;
+  color: black;
+  list-style: none;
+  font-weight: bold;
+  font-style: italic;
+  display: inline-block;
+  display: inline-block;
+  padding: 1%;
+  border-radius: 19%;
+  margin: 5px 25px 5px 25px;
+background: -moz-linear-gradient(top,  rgba(30,87,153,1) 0%, rgba(125,185,232,0) 100%);
+background: -webkit-linear-gradient(top,  rgba(30,87,153,1) 0%,rgba(125,185,232,0) 100%);
+background: linear-gradient(to bottom,  rgba(30,87,153,1) 0%,rgba(125,185,232,0) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#007db9e8',GradientType=0 );
+box-shadow: 2px 2px 4px 2px #000000;
+}
+#downloads a:first-child{
+  margin-left: 22%;
+}
+#downloads a:hover{
+/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#d5a052+0,d3c1a7+100&1+0,0+100 */
+background: -moz-linear-gradient(top,  rgba(213,160,82,1) 0%, rgba(211,193,167,0) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  rgba(213,160,82,1) 0%,rgba(211,193,167,0) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  rgba(213,160,82,1) 0%,rgba(211,193,167,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d5a052', endColorstr='#00d3c1a7',GradientType=0 ); /* IE6-9 */
+}
+#downloads a:active{
+  box-shadow: 1px 1px 2px 1px #000000;
+}
+#footer img{
+  margin: 20px 50% 10px 47%;
+  width: 5%;
 }
